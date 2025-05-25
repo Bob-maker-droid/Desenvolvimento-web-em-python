@@ -1,11 +1,11 @@
 body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   background: url('fundo.jpg') no-repeat center center fixed;
   background-size: cover;
  color: #6e695e;
   margin: 0;
   padding: 0;
-background-color: #403d39;
+background-color: #a8a58c;
 }
 
 nav.menu {
@@ -17,7 +17,7 @@ nav.menu {
 
 nav.menu a{
   color: #403d39;
-  margin-right: 15px;
+  margin-right: 10px;
   text-decoration: none;
   font-weight: bold;
 }
@@ -35,31 +35,27 @@ h1, h2, h3, h4 {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    color: #ccc5b9;
    font-family: 'Times New Roman', Times, serif;
-  max-width: 200px;
-  margin: 40px auto;
-  padding: 15px;
+  max-width: 300px;
+  margin: 40px;
+  padding: 25px;
   background-color: #f3efe8;
   border-radius: 60px;
-  box-shadow: 0 4px 12px #403d39;
+  box-shadow: 0 4px 5px #394039;
   color: #403d39;
-  font-size: 1.1em;
-  line-height: 1.4em;
- 
 }
 nav {
   color: rgb(241, 248, 183);
 }
-.box {
-  max-width: 1000px;
-  margin: 50px auto;
+.box, .box1, .box2, .box3 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color:  #a8a58c;
   padding: 20px;
-  background-color: #a8a58c;
+  margin: 40px auto;
+  width: 90%;
+  box-shadow: 0 4px 8px rgba(0,0,0, 0.4);
+  max-width: 1000px;
+  color: #e9e8dd;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0, 0.4);
-  color: #fffbe0;
-  font-size: 1.1em;
-  line-height: 1.6em;
-
 }
 .Mbt {
    max-width: 1000px;
@@ -67,4 +63,10 @@ nav {
   padding: 10px;
   background-color: #e9e8dd;
   border-radius: 10px;
+}
+.centro{
+  font-size: 1.7em;
+  text-align: center;
+  color: #5a5339;
+  font-family: 'Times New Roman', Times, serif;
 }
