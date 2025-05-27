@@ -2,10 +2,10 @@ body {
   font-family: Arial, sans-serif;
   background: url('fundo.jpg') no-repeat center center fixed;
   background-size: cover;
- color: #6e695e;
+ color: #b6ae9e;
   margin: 0;
   padding: 0;
-background-color: #a8a58c;
+background-color: #e4e2d2;
 }
 
 nav.menu {
@@ -47,14 +47,14 @@ nav {
   color: rgb(241, 248, 183);
 }
 .box, .box1, .box2, .box3 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background-color:  #a8a58c;
+  font-family:monospace; background-color:  #c5c4b6;
+  font-weight: 100;
   padding: 20px;
   margin: 40px auto;
   width: 90%;
   box-shadow: 0 4px 8px rgba(0,0,0, 0.4);
   max-width: 1000px;
-  color: #e9e8dd;
+  color: #72705c;
   border-radius: 10px;
 }
 .Mbt {
